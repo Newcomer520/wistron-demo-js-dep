@@ -1,6 +1,6 @@
-my-simple-scaffold
+# wistron-demo-js-dep
 ==================
 
-a simple scaffolding for development only
+## Implement webpack for solving javascript dependencies
 
 
