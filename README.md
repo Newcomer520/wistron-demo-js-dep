@@ -1,6 +1,4 @@
 # wistron-demo-js-dep
-==================
-
 Implement webpack for solving javascript dependencies
 ### Prerequisite
 * Need to install [node.js](https://nodejs.org/)  
