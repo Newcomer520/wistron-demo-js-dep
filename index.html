@@ -8,15 +8,21 @@
 		<!--<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>-->
 	</head>
 	<body>
-		<h1>For Development!</h1>
-		<div ng-controller="main-ctrl as main">
-			<ul>
-				<li ng-repeat="item in main.items">
-					<div style="display:inline-block;width:100px">{{item.location}}</div>
-					<span>{{item.number}}</span>
-				</li>
-			</ul>
-		</div>
+		<div class="container">
+			<div class="col-md-6 col-sd-12" ng-controller="main-ctrl as main">
+				<h1>Wistron Cobra!</h1>				
+				<ul>
+					<li ng-repeat="item in main.data.raw track by $index">
+						{{item}}
+					</li>
+				</ul>
+			</div>
+			<div class="col-md-6 col-sd-12">
+				<div>
+					<example-bar bar-id="bar01" width="500" height="250"></example-bar>					
+				</div>
+			</div>
+		</div>		
 		<script src="assets/main.js"></script>
 	</body>
 </html>

@@ -1,13 +1,14 @@
 var angular = require('angular');
 var namespaces = require('../namespace.js');
 var app = namespaces.app;
-var myService = require('../services/my-service.js');
+require('../services/my-service.js');
+require('../services/api-service.js');
 
 var mainCtrl = app.controller('main-ctrl', mainCtrlFactory);
 
-mainCtrlFactory.$inject = ['myService'];
-function mainCtrlFactory(myService) {
-	this.items = myService.items;
+mainCtrlFactory.$inject = ['api-service'];
+function mainCtrlFactory(apiService) {
+	this.data = apiService.data;	
 }
 
 module.exports = mainCtrl;
