@@ -10,7 +10,7 @@ This project is developed in Node.js, gulp and webpack, focused on the front-end
 
 ### Prerequisite
 * Need to install [node.js](https://nodejs.org/)  
-* gulp & webpack for node packages:  
+* [gulp](http://gulpjs.com/) & [webpack](https://github.com/webpack/webpack) for node packages:  
  ```
  $ npm install gulp webapck -g
  ```
