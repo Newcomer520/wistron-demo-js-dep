@@ -1,5 +1,13 @@
 # wistron-demo-js-dep
-Implement webpack for solving javascript dependencies
+Implement webpack for managing javascript dependencies  
+Include the following front-end libraries:
+* jquery
+* angular
+* RGrapph
+* bootstrap(js and css)
+
+This project is developed in Node.js, gulp and webpack, focused on the front-end framework.
+
 ### Prerequisite
 * Need to install [node.js](https://nodejs.org/)  
 * gulp & webpack for node packages:  
