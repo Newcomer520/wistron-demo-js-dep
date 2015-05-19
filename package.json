@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Newcomer520/wistron-demo-js-dep"
+  },
   "author": "I-Lun",
   "license": "ISC",
   "dependencies": {
@@ -25,7 +29,7 @@
     "ng-cache-loader": "0.0.9",
     "object-assign": "^2.0.0",
     "react": "^0.13.3",
-    "sass-loader": "^0.3.1",
+    "sass-loader": "^1.0.2",
     "style-loader": "^0.8.2",
     "underscore": "^1.7.0",
     "url-loader": "^0.5.5",
